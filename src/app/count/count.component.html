@@ -1,0 +1,18 @@
+<div class="count">
+  <div>
+    <table>
+      <tr *ngFor="let coinType of coinTypes">
+        <th>{{coinType/100 | currency}}</th>
+        <td>
+          <button (click)="add(coinType)">+</button>
+        </td>
+        <td>
+          <button (click)="substract(coinType)">-</button>
+        </td>
+      </tr>
+
+    </table>
+
+    Your total is: <h3>{{coinTotal/100 | currency}}</h3></div>
+</div>
+

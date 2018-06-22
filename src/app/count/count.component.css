@@ -1,0 +1,14 @@
+button {
+  width: 2rem;
+  height: 2rem;
+}
+
+table, td, th {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 1rem;
+}
+
+.count {
+  display:flex;justify-content:center;align-items:center;
+}
